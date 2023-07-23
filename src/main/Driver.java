@@ -21,13 +21,13 @@ import javax.imageio.ImageIO;
 
 public class Driver extends Application{
 
-    static int N = 4; //initial value
-    static int[][] board;
-    static int totalSolutions;
-    static int currentSolution;
+    private static int N = 4; //initial value
+    private static int[][] board;
+    private static int totalSolutions;
+    private static int currentSolution;
 
     //list for storing solutions in 2D arrays
-    static ArrayList<int[][]> list = new ArrayList<>();
+    private static ArrayList<int[][]> list = new ArrayList<>();
 
     BorderPane bPane;
     GridPane gPane;

@@ -51,7 +51,7 @@ public class Driver extends Application{
         System.out.println("DIR : " + s);
 
         //image1 = new Image(new FileInputStream("src/resources/q3.png"));
-        //using resourceStream for input instead of above for working of jar file
+        //using resourceAsStream for input of images instead of above for working of jar file
         try (InputStream inputStream3 = getClass().getResourceAsStream("/resources/q3.png");
              InputStream inputStream2 = getClass().getResourceAsStream("/resources/q2.png");
              InputStream inputStream1 = getClass().getResourceAsStream("/resources/q1.png");){

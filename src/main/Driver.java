@@ -29,16 +29,16 @@ public class Driver extends Application{
     //list for storing solutions in 2D arrays
     private static ArrayList<int[][]> list = new ArrayList<>();
 
-    BorderPane bPane;
-    GridPane gPane;
-    HBox hBoxTop, hBoxBottom;
-    ChoiceBox<Integer> choiceBox;
-    Background bg, bg2, bg3;
-    ColumnConstraints columnConstraints;
-    RowConstraints rowConstraints;
-    Label l1, l2;
-    Button prevButton, nextButton;
-    Image image1, image2, image3;
+    private BorderPane bPane;
+    private GridPane gPane;
+    private HBox hBoxTop, hBoxBottom;
+    private ChoiceBox<Integer> choiceBox;
+    private Background bg, bg2, bg3;
+    private ColumnConstraints columnConstraints;
+    private RowConstraints rowConstraints;
+    private Label l1, l2;
+    private Button prevButton, nextButton;
+    private Image image1, image2, image3;
 
     @Override
     public void start(Stage stage) throws IOException {

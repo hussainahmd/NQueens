@@ -1,6 +1,6 @@
 # NQueens-GUI
 
-A simple and clean GUI for NQueens problem implemented using JavaFX.
+A simple and clean GUI for "NQueens" problem implemented using JavaFX.
 
 • How to run?
 

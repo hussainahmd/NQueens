@@ -258,9 +258,9 @@ public class Driver extends Application{
         if (row == N)
         {
             int[][] solution = new int[N][N];
-            for(int i = 0; i < N; i++)
+            for(int i = 0; i < N; i++)]
                 solution[i] =  board[i].clone();
-
+            //using a new 2d array object instead of original board array
             list.add(solution);
         }
         else
